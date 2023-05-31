@@ -1,0 +1,159 @@
+body {
+  font-family: Overpass;
+  background-color: #f9ebc88d;
+  color: #644536;
+  text-align: center;
+  padding: 25px;
+}
+
+#intro{
+  font-size: 20px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+.card {
+  background-color: rgb(245, 238, 238);
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 8px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.7);
+  border: 1px solid rgb(230, 165, 165);
+
+}
+
+.third_card {
+  background-color: rgb(245, 238, 238);
+  padding: 50px;
+  width: 500px;
+  height: 300px;
+  margin: 25px auto;
+  border-radius: 8px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.7);
+  border: 1px solid rgb(230, 165, 165);
+}
+
+#picture {
+  width: 200px;
+  height: 220px;
+  border-radius: 50%;
+}
+
+#picture:hover {
+  width: 205px;
+  height: 225x;
+  border-radius: 60%;
+  transition: 0.3s;
+  box-shadow: 6px 8px 4px black;
+  cursor: pointer;
+}
+
+ h2, h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #0C0A3E;
+  font-size: 25px;
+  line-height: 50px;
+  text-overflow: ellipsis;
+}
+
+.site {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: white;
+  background-color: #BA6E6E;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  padding: 5px;
+
+}
+
+.description {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: #ffe1e1;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  padding: 5px;
+  line-height: 35px;
+  padding: 10px;
+}
+
+p{
+  font-size:18px
+}
+
+.site:hover {
+  background-color: #A36060;
+  transition: 0.2s;
+}
+
+
+
+.links{
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+}
+.réseaux{
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  width: 100%;
+  height: 250px;
+}
+.social{
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  text-decoration: none;
+}
+.social:hover{
+  color: #6ea8ba;
+  transition: 0.2s;
+}
+ul{
+  display: flex;
+  list-style: none;
+  padding: 5px;
+  gap: 15px;
+  justify-content: center;
+  /* background-color: blue; */
+  height: 150px;
+}
+
+
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+  .card{
+    width: 400px;
+  }
+  .third_card{
+    width: 400px;
+  }
+}
+@media (max-width: 620px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+  .card{
+    width: 200px;
+  }
+  .third_card{
+    width: 200px;
+  }
+}
